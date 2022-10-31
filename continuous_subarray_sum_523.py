@@ -10,11 +10,11 @@ from typing import List
 class Solution:
     def checkSubarraySum(self, nums: List[int], k: int) -> bool:
         '''
-        An O(n) time complexity solution with space complexity O(n). Could 
-        reduce the space complexity to O(min(n,k)), but the problem only has 
+        An O(n) time complexity solution with space complexity O(n). Could
+        reduce the space complexity to O(min(n,k)), but the problem only has
         small input
-        
-        
+
+
         Problem
         -------
         Given an integer array nums and an integer k, return true if nums has a
@@ -143,7 +143,7 @@ class Solution:
         is this in the hash table? yes
         A subarray can be made, so return true.
 
-        
+
         '''
 
         summed_array = [0]
